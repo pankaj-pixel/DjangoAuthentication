@@ -2,3 +2,7 @@
 2 . create app called auth
 3. To use django inbuilt authentication we need to add in settings.py
     --> AUTHENTICATION-BACKENDS=['django.contrib.auth.backends.ModelBackend']
+4. create a view for login ,logut,register and dashboard
+5. we use [from django.contrib.auth.forms import UserCreationForm,AuthenticationForm]
+    --> UserCreationform to create user and AuthenticatenForm to authenticate user
+6. django provide login and logut function from django.contrib.auth import login,logout set them accordingly
