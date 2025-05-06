@@ -1,0 +1,4 @@
+1. Create a project name auth_project
+2 . create app called auth
+3. To use django inbuilt authentication we need to add in settings.py
+    --> AUTHENTICATION-BACKENDS=['django.contrib.auth.backends.ModelBackend']
